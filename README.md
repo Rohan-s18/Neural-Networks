@@ -4,6 +4,10 @@ This repository contains the source code for various types of Neural Networks fr
 
 ## Simple Neural Networks
 This Directory contains the source code for some of the basic types of Neural Networks, these include:  
+  - **Single Layer (Multi-input -> Single-output):** This directory contains source code for a general single layer n-to-1 neural network.   
+  - **Single Layer (Multi-input -> Multi-output):** This directory contains source code for a general single layer n-to-m neural network.  
+  - **Hidden Layer (Multi-input -> Single-output):** This directory contains source code for a general non-linearity (hidden layer) n-to-1 neural network.      
+  - **Hidden Layer (Multi-input -> Multi-output):** This directory contains source code for a general non-linearity (hidden layer) n-to-m neural network. 
 
 
 ## Contact
