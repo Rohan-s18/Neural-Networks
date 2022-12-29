@@ -216,8 +216,11 @@ def main():
 
     #Instantiating the Neural Network Object
     DemoNN = NeuralNetwork(dataset=dataset,targets=target,n=4)
-    #out = DemoNN.get_NN_Output(np.array([1,1,1,1,1]))
+
+    #Training the Neural Network
     DemoNN.train(0.001,500,10000)
+
+    #USing the Predict Function
     out = DemoNN.predict(dataset)
     print(out)
 
